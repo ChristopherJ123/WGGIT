@@ -38,11 +38,19 @@ body {
   overflow: auto;
 }
 
+.profile-background-container {
+  display: flex; 
+  position: relative; 
+  overflow: hidden;
+}
+
 .profile-background {
+  position: relative;
   width: 900px; 
-  max-width: 100%;
   height: 300px; 
   margin-bottom: 40px;
+  left: 50%;
+  margin-left: -450px;
 }
 
 .profile-picture {
